@@ -1,27 +1,21 @@
 package com.crud.crud.application.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-
-
-@Entity
-
 public class User {
-
-    @Id
-    @GeneratedValue
-
     private Long id;
     private String username;
     private String name;
     private String email;
-
+    
+    public User(Long id, String username, String name, String email) {
+        this.id = id;
+        this.username = username;
+        this.name = name;
+        this.email = email;
+    }
 
     public Long getId() {
         return id;
     }
-
     public void setId(Long id) {
         this.id = id;
     }
