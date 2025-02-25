@@ -1,0 +1,14 @@
+{
+  "name": "crud-application-springboot-react",
+  "version": "1.0.0",
+  "description": "CRUD Application using React and Spring Boot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^6.1.15"
+  }
+}
